@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedward - Cosmos Q&A</title>
+    <link rel="icon" type="image/png" href="/images/avatar.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./images/avatar.png" alt="Cosmos" class="cosmos-avatar">
+        <h1>Kedward</h1>
+        <h2>Sobre o que quer saber sobre Cosmos?</h2>
+        <div class="suggestion-buttons">
+            <button onclick="askQuestion('Fale sobre o Calendário Cósmico')">Calendário Cósmico</button>
+            <button onclick="askQuestion('Explique a Equação de Drake')">Equação de Drake</button>
+            <button onclick="askQuestion('Quem foi Carl Sagan?')">Carl Sagan</button>
+        </div>
+        <div id="answer-container" class="answer-container"></div>
+        <!-- Add the loading indicator here -->
+        <div id="loading" class="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Kedward está pensando...</p>
+        </div>
+        <div class="input-container">
+            <input type="text" id="question-input" placeholder="Faça uma pergunta...">
+            <button onclick="askQuestion()">Enviar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
