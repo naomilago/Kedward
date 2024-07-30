@@ -1,5 +1,9 @@
 # Kedward: RAG System for Carl Sagan's Cosmos
 
+<p align='center'>
+  <img src='assets/Kedward Q&A.png' width='512px' />
+</p>
+  
 ## 🚀 IADevs Langflow Competition Project
 
 Welcome to the Kedward project repository! This project was developed as part of the IADevs competition by [Langflow](https://www.langflow.org/), focusing on creating a RAG (Retrieval-Augmented Generation) system to answer questions about Carl Sagan's "Cosmos".
